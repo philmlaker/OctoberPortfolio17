@@ -1,11 +1,12 @@
 body {
-  background-color:white;
+  background-color:#F4F4F9;
   text-align: center;
-  color:#fff;
-  padding-top:10em;
+  color:#2F4550;
+  padding-top:5em;
+   overflow-y:hidden;
 }
 
-* { color:#ce3635; text-decoration: none;}
+* { color:#236d73; text-decoration: none;}
 
 * {
   margin: 0;
@@ -21,8 +22,8 @@ body {
 .container {
   position: relative;
   width: 100%;
-  min-height: 100%;
-  background: white;
+  min-height: 73%;
+  background: #F4F4F9;
 }
 
 .circles,
@@ -42,7 +43,7 @@ body {
 [class*='circle-'] {
   width: 300px;
   height: 300px;
-  border: 1px solid rgba(240, 96, 96, 0.8);
+  border: 1px solid rgba(129, 195, 192, 0.92);
   border-radius: 100%;
 }
 

@@ -1,4 +1,5 @@
-
+// TYPEWRITER EFFECT****************************************
+ 
  var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;
@@ -52,6 +53,8 @@
         // INJECT CSS
         var css = document.createElement("style");
         css.type = "text/css";
-        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid red}";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #B8DBD9}";
         document.body.appendChild(css);
     };
+
+    // TYPEWRITER EFFECT****************************************
