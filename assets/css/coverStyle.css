@@ -1,6 +1,3 @@
-#enter{
-
-}
 
 body {
   background-color:#fffdfc;
@@ -11,6 +8,11 @@ body {
 font-family: 'Roboto', sans-serif;
 
 }
+
+#center {
+  text-align: center;
+}
+
 
 * { color:#f78127; text-decoration: none;}
 

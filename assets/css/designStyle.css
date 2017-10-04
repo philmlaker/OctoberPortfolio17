@@ -1,0 +1,162 @@
+@font-face {
+    font-family: stitchFont;
+    src: url("../fonts/MixStitch.ttf");
+}
+
+#flowerstitch{
+  height: 146px;
+  display: inline-block;
+}
+
+body{
+	    margin: 0px 0px;
+	    padding: 0px 0px;
+	    background-image: url("../images/leather.png");
+}
+.demo-2 .large-header {
+	background-color: black;
+	width: 100%;
+}
+
+div.container{
+  color: #d6d6d6;
+}
+
+#center{
+  text-align: center;
+}
+
+div.container.demo-2{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+h1{
+  font-size: 95px !important;
+  display: inline-block;
+}
+
+.stitched {
+   padding: 20px;
+   margin: 10px;
+   background-image: url("../images/fabric.png");
+   color: #cacaca;
+   font-size: 88px;
+  text-shadow: 1px 1px 2px black;
+   line-height: 1.3em;
+   border: 3px dashed #cacaca;
+   border-radius: 10px;
+   box-shadow: 0 0 0 4px #1e1e1e, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+
+   font-family: stitchFont;
+}
+
+ 
+
+.arrow-up {
+
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 100px 173.2px 100px;
+border-color: transparent transparent white transparent;
+  position: fixed;
+   top: 35%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -49.5%);
+  	background-color: #FFFFFF80;
+-webkit-animation: infinite-spinning 5s infinite; /* Safari 4+ */
+  -moz-animation:    infinite-spinning 5s infinite; /* Fx 5+ */
+  -o-animation:      infinite-spinning 5s infinite; /* Opera 12+ */
+  animation:         infinite-spinning 5s infinite; /* IE 10+, Fx 29+ */
+  animation-duration: 100s;
+}
+.arrow-up2 {
+
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 100px 173.2px 100px;
+border-color: transparent transparent white transparent;
+  position: fixed;
+   top: 35%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-0.5%, 49%);
+  	background-color: #FFFFFF80;
+-webkit-animation: infinite-spinning 5s infinite; /* Safari 4+ */
+  -moz-animation:    infinite-spinning 5s infinite; /* Fx 5+ */
+  -o-animation:      infinite-spinning 5s infinite; /* Opera 12+ */
+  animation:         infinite-spinning 5s infinite; /* IE 10+, Fx 29+ */
+  animation-duration: 100s;
+
+}
+.arrow-up3 {
+
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 100px 173.2px 100px;
+border-color: transparent transparent white transparent;
+  position: fixed;
+   top: 35%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-99.5%, 49%);
+  	background-color: #FFFFFF80;
+-webkit-animation: infinite-spinning 5s infinite; /* Safari 4+ */
+  -moz-animation:    infinite-spinning 5s infinite; /* Fx 5+ */
+  -o-animation:      infinite-spinning 5s infinite; /* Opera 12+ */
+  animation:         infinite-spinning 5s infinite; /* IE 10+, Fx 29+ */
+  animation-duration: 100s;
+
+}
+
+.arrow-up4 {
+  width: 0;
+height: 0;
+z-index:9;
+border-style: solid;
+border-width: 173.2px 100px 0 100px;
+border-color: white transparent transparent transparent;
+  position: fixed;
+   top: 35%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, 50%);
+    background-color: #FFFFFF80;
+-webkit-animation: infinite-spinning2 5s infinite; /* Safari 4+ */
+  -moz-animation:    infinite-spinning2 5s infinite; /* Fx 5+ */
+  -o-animation:      infinite-spinning2 5s infinite; /* Opera 12+ */
+  animation:         infinite-spinning2 5s infinite; /* IE 10+, Fx 29+ */
+  animation-duration: 200s;
+
+}
+@keyframes infinite-spinning2 {
+      0%   {border-color: white transparent transparent transparent;}
+
+    50% {border-color: black transparent transparent transparent;}
+  100%   {border-color: white transparent transparent transparent;}
+}
+@keyframes infinite-spinning {
+	    0%   {border-color: transparent transparent black transparent;}
+
+    50% {border-color: transparent transparent white transparent;}
+    100%   {border-color: transparent transparent black transparent;}
+}
+
+
+#icons{
+  height: 40px;
+  margin-left: -18px;
+}
+
+#iconbox{
+      margin-bottom: -20px;
+    margin-top: -10px;
+}
+
+*::-ms-backdrop, #icons { margin-left: -60px } /* IE11 */
