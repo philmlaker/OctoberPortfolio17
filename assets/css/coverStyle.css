@@ -1,12 +1,18 @@
+#enter{
+
+}
+
 body {
-  background-color:#F4F4F9;
+  background-color:#fffdfc;
   text-align: center;
   color:#2F4550;
   padding-top:5em;
    overflow-y:hidden;
+font-family: 'Roboto', sans-serif;
+
 }
 
-* { color:#236d73; text-decoration: none;}
+* { color:#f78127; text-decoration: none;}
 
 * {
   margin: 0;
@@ -23,7 +29,7 @@ body {
   position: relative;
   width: 100%;
   min-height: 73%;
-  background: #F4F4F9;
+  background: #fffdfc;
 }
 
 .circles,
