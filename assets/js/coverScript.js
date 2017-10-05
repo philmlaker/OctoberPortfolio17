@@ -45,7 +45,7 @@
         }, delta);
     };
 
-    window.onload = function() {
+    window.onload = function() {setTimeout(function(){ 
         var elements = document.getElementsByClassName('typewrite');
         for (var i=0; i<elements.length; i++) {
             var toRotate = elements[i].getAttribute('data-type');
@@ -53,7 +53,7 @@
             if (toRotate) {
               new TxtType(elements[i], JSON.parse(toRotate), period);
             }
-        }
+        }}, 3000);
         // INJECT CSS
         var css = document.createElement("style");
         css.type = "text/css";
