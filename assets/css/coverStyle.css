@@ -1,6 +1,6 @@
 
 body {
-  background-color:#fffdfc;
+  background-color:#413f55;
   text-align: center;
   color:#2F4550;
   padding-top:5em;
@@ -14,7 +14,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 
-* { color:#f78127; text-decoration: none;}
+* { color:orange; text-decoration: none;}
 
 * {
   margin: 0;
@@ -31,7 +31,7 @@ body {
   position: relative;
   width: 100%;
   min-height: 73%;
-  background: #fffdfc;
+  background: #413f55;
 }
 
 .circles,
@@ -51,7 +51,7 @@ body {
 [class*='circle-'] {
   width: 300px;
   height: 300px;
-  border: 1px solid rgba(129, 195, 192, 0.92);
+  border: 1px solid rgba(129, 195, 192, 0.5);
   border-radius: 100%;
 }
 

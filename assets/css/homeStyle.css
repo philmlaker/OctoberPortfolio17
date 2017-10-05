@@ -5,10 +5,13 @@
 body{
  background: url("../images/night.jpeg") no-repeat fixed center; 
   overflow:hidden;
-  height: 100%;
-  background-size:100%;
+ min-width: 100%;
+  min-height: 100%;
+ background-size: cover;
   display: hidden;
 }
+
+
 
 // 
 
