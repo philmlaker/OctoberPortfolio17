@@ -1,14 +1,3 @@
-document.addEventListener("click", function(){ 
-    
-     $(".container").fadeOut("slow",function(){
-       window.location.href = "home.html"
-    })
-    
-     $(".typewrite").fadeOut("slow",function(){
-       window.location.href = "home.html"
-    })
-
-});
 
 
 

@@ -2,6 +2,12 @@
 	display:hidden;
 }
 
+.typewrite{
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
 body{
  background: url("../images/night.jpeg") no-repeat fixed center; 
   overflow:hidden;

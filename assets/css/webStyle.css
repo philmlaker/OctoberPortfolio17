@@ -3,15 +3,20 @@
     src: url("../fonts/MixStitch.ttf");
 }
 
-#flowerstitch{
-  height: 146px;
-  display: inline-block;
+canvas {
+  display: block; 
+  left: 50%;
+  margin: -200px 0 0 -200px;
+  position: absolute;
+  top: 50%;
 }
+
+
 
 body{
 	    margin: 0px 0px;
 	    padding: 0px 0px;
-	    background-image: url("../images/stucco.jpg");
+	    background-color: black;
 }
 .demo-2 .large-header {
 	background-color: black;
@@ -160,3 +165,38 @@ border-color: white transparent transparent transparent;
 }
 
 *::-ms-backdrop, #icons { margin-left: -60px } /* IE11 */
+
+.trippytext {
+  /* Typography */
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  letter-spacing: .02em;
+  font-size: 7em;
+  line-height:1em;
+ 
+  /* Effects */
+  text-shadow: 10px 10px 8px rgba(0, 0, 0, 0.15);
+
+  /* Lots of Colors - Like a Rainbow */
+  background: linear-gradient(45deg, #58c8e8,  #a8cb2d, #f1b007, #f1b007, #cb502d, #f1b007, #a8cb2d,  #58c8e8, #a8cb2d, #f1b007, #f1b007, #cb502d, #f1b007, #a8cb2d,  #58c8e8);
+  background-size:250% 500%;
+  
+  /* Clips the gradient to the text */
+  -webkit-background-clip: text;
+
+  /* Animate Gradient */
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: textAnim 5s ease-out infinite;
+
+  /* Trigger Hardware Acceleration */
+  -webkit-transform: translate3d(0,0,0);
+  -webkit-backface-visibility: hidden;
+
+}
+
+/* Defined the Animation */
+@-webkit-keyframes textAnim {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
